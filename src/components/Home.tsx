@@ -11,7 +11,7 @@ const Home: React.FC = () => {
     return (
         <>
             <div>
-                <a href="https://vitejs.dev" target="_blank">
+                <a href="https://github.com/jcpoulson/MIU-team-7-prototype" target="_blank">
                     <img src={viteLogo} className="logo" alt="Vite logo" />
                 </a>
                 <a href="https://www.marforres.marines.mil/MIU/" target="_blank">
@@ -27,7 +27,12 @@ const Home: React.FC = () => {
             </div>
             <div className="card">
                 <button style={{ backgroundColor: "blue"}}>
-                    <a style={{ color: "white"}} target="_blank" href="https://trello.com/b/dkWtG3Jf/miu-official-backlog">View MIU Official Kanban Board</a>
+                    <a style={{ color: "white"}} target="_blank" href="https://trello.com/b/dkWtG3Jf/miu-official-backlog">View MIU Official Backlog</a>
+                </button>
+            </div>
+            <div className="card">
+                <button style={{ backgroundColor: "purple"}}>
+                    <a style={{ color: "white"}} target="_blank" href="https://trello.com/w/workspace42967713">View All Branch Kanban Boards</a>
                 </button>
             </div>
             <p className="read-the-docs">Click on the logos to learn more</p>

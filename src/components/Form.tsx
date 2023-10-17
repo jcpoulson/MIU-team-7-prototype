@@ -46,7 +46,7 @@ const Form = () => {
 	return (
 		<>
 			<div>
-				<a href="https://vitejs.dev" target="_blank">
+				<a href="https://github.com/jcpoulson/MIU-team-7-prototype" target="_blank">
 					<img src={viteLogo} className="logo" alt="Vite logo" />
 				</a>
 				<a href="https://www.marforres.marines.mil/MIU/" target="_blank">
